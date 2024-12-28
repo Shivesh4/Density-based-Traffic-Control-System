@@ -7,10 +7,10 @@
   iii) SageMaker: Utilized for deploying machine learning models to analyze traffic patterns and provide insights.
 
 **System Architecture**
-1. Sensors: Collect real-time traffic data.\
-2. NodeMCU: Gathers sensor data and transmits it to the cloud using MQTT protocol.\
+1. Sensors: Collect real-time traffic data.
+2. NodeMCU: Gathers sensor data and transmits it to the cloud using MQTT protocol.
 3. Cloud Server:
   i) AWS DynamoDB: Stores traffic data for further processing.\
   ii) AWS API Gateway: Facilitates communication between the NodeMCU and server.\
-  iii) AWS SageMaker: Processes the stored data using ML models for traffic analysis.\
+  iii) AWS SageMaker: Processes the stored data using ML models for traffic analysis.
 

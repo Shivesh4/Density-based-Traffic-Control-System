@@ -3,6 +3,7 @@ Key Features:
 2. MQTT Protocol: Implemented MQTT for low-power, low-bandwidth data transmission between NodeMCU and the cloud server.
 3. AWS Configuration:
   i) DynamoDB: Employed for storing traffic data efficiently.
+
   ii) API Gateway: Configured to route data between NodeMCU and the cloud server.
   iii) SageMaker: Utilized for deploying machine learning models to analyze traffic patterns and provide insights.
 
